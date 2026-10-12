@@ -4,101 +4,138 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#4a101d">
-  <title>Império das Soberanas | Faça parte</title>
+
+  <title>Império das Soberanas | Recrutamento</title>
+
   <meta name="description" content="Conheça o Império das Soberanas, receba orientações sobre o recrutamento e saiba como participar.">
+
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       color: #fff8ef;
-      background: #230910;
+      background:
+        radial-gradient(ellipse at top, #64101c 0%, #230910 70%);
       min-height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 22px;
     }
+
     .card {
       width: 100%;
       max-width: 440px;
       text-align: center;
-      padding: 34px 24px;
+      padding: 28px 24px;
       border: 1px solid #b9954d;
       border-radius: 22px;
       background: linear-gradient(160deg, #641b2b, #350e19 72%);
       box-shadow: 0 18px 55px #0007;
     }
-    .crown { font-size: 42px; }
-    h1 {
-      color: #edce88;
-      font-size: 29px;
-      line-height: 1.15;
-      margin: 12px 0;
+
+    .logo {
+      display: block;
+      width: 100%;
+      max-width: 340px;
+      height: auto;
+      margin: 0 auto 20px;
+      border-radius: 14px;
     }
+
     .line {
       width: 75px;
       height: 2px;
       background: #d8b66c;
       margin: 20px auto;
     }
+
     p {
       font-size: 16px;
       line-height: 1.7;
       color: #f6e8e4;
     }
+
+    .welcome {
+      color: #edce88;
+      font-size: 21px;
+      font-weight: bold;
+    }
+
     .button {
       display: block;
       margin-top: 26px;
       padding: 17px 12px;
-      background: #dfbd72;
+      background: linear-gradient(135deg, #f0d68f, #d5ad53);
       color: #35101a;
       text-decoration: none;
       font-weight: bold;
+      border: 1px solid #f8e4a9;
       border-radius: 12px;
-      font-size: 16px;
+      font-size: 15px;
+      transition: transform 0.2s, filter 0.2s;
     }
+
+    .button:hover {
+      filter: brightness(1.08);
+      transform: translateY(-2px);
+    }
+
     .note {
       font-size: 12px;
       color: #e7cda0;
       margin-top: 20px;
     }
+
     footer {
       font-size: 11px;
       color: #c9a9a8;
       margin-top: 24px;
     }
   </style>
-
-  <!-- PIXEL DA META: configurar depois -->
 </head>
+
 <body>
   <main class="card">
-    <div class="crown">♛</div>
-    <h1>IMPÉRIO DAS<br>SOBERANAS</h1>
+
+    <img
+      class="logo"
+      src="./logo-imperio.png"
+      alt="Império das Soberanas — Recrutamento"
+    >
+
     <div class="line"></div>
-    <p>Seja bem-vinda!</p>
-  
-<p>
-  Entre no nosso grupo de recrutamento
-  de streamers e comece hoje mesmo!
-</p>
 
+    <p class="welcome">Seja bem-vinda! 👑</p>
 
-    
-<a class="button"
-   id="whatsapp-button"
-   href="https://chat.whatsapp.com/JOdsr6HsOv2KofIn1aS2kH?s=cl&p=a&mlu=4&ilr=4"
-   target="_blank"
-   rel="noopener noreferrer">
-  ENTRAR NO GRUPO DO WHATSAPP
-</a>
+    <p>
+      Entre no nosso grupo de recrutamento
+      de streamers e conheça os próximos passos
+      para fazer parte do Império.
+    </p>
 
+    <a
+      class="button"
+      id="whatsapp-button"
+      href="https://chat.whatsapp.com/JOdsr6HsOv2KofIn1aS2kH?s=cl&p=a&mlu=4&ilr=4"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      ENTRAR NO GRUPO DO WHATSAPP
+    </a>
 
     <p class="note">
       Toque no botão acima para acessar o convite do grupo.
     </p>
-    <footer>Império das Soberanas © 2026</footer>
+
+    <footer>
+      Império das Soberanas © 2026
+    </footer>
+
   </main>
 </body>
-</html> 
+</html>
